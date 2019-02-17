@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+<body onload="StartNewGame()">
+    
+    <div>
+        <header>MEMORY</header>
+    </div>
+
+    <div id="container">
+        <div id="card0" class="card">
+            <figure>
+                <div id="fig0" class="photo"></div>
+            </figure>
+            <div id="cover0" class="cover"> </div>
+        </div>
+        <div id="card1" class="card">
+            <figure>
+                <div id="fig1" class="photo"></div>
+            </figure>
+            <div id="cover1" class="cover"> </div>
+        </div>
+        <div id="card2" class="card">
+            <figure>
+                <div id="fig2" class="photo"></div>
+            </figure>
+            <div id="cover2" class="cover"> </div>
+        </div>
+        <div id="card3" class="card">
+            <figure>
+                <div id="fig3" class="photo"></div>
+            </figure>
+            <div id="cover3" class="cover"> </div>
+        </div>
+        <div id="card4" class="card">
+            <figure>
+                <div id="fig4" class="photo"></div>
+            </figure>
+            <div id="cover4" class="cover"> </div>
+        </div>
+        <div id="card5" class="card">
+            <figure>
+                <div id="fig5" class="photo"></div>
+            </figure>
+            <div id="cover5" class="cover"> </div>
+        </div>
+        <div id="card6" class="card">
+            <figure>
+                <div id="fig6" class="photo"></div>
+            </figure>
+            <div id="cover6" class="cover"> </div>
+        </div>
+        <div id="card7" class="card">
+            <figure>
+                <div id="fig7" class="photo"></div>
+            </figure>
+            <div id="cover7" class="cover"> </div>
+        </div>
+        <div id="card8" class="card">
+            <figure>
+                <div id="fig8" class="photo"></div>
+            </figure>
+            <div id="cover8" class="cover"> </div>
+        </div>
+        <div id="card9" class="card">
+            <figure>
+                <div id="fig9" class="photo"></div>
+            </figure>
+            <div id="cover9" class="cover"> </div>
+        </div>
+        <div id="card10" class="card">
+            <figure>
+                <div id="fig10" class="photo"></div>
+            </figure>
+            <div id="cover10" class="cover"> </div>
+        </div>
+        <div id="card11" class="card">
+        <figure>
+            <div id="fig11" class="photo"></div>
+        </figure>
+            <div id="cover11" class="cover"> </div>
+        </div>
+    </div>
+
+    <div id="winDiv">
+        <div><span id="winText"></span> </div>
+        <div><img src='img/giphy.webp' alt='sheldon' id="winGif"></div>
+        <div id="resButton"  onClick="window.location.reload()">
+            <span>PLAY AGAIN</span>
+        </div>    
+    </div>
+
+    <div class="score" id="score">
+        Number of turns: 0
+    </div>
+    <div class="score" id="bestScore">
+    </div>
+
+    <!-- <script src="scripts.js" ></script> -->
+    <script src="script_class.js" ></script>
+    <script src="jquery-3.3.1.min.js"></script>
+</body>
+</html>
